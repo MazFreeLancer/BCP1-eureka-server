@@ -3,6 +3,7 @@ spring:
     name: eureka-server
   config:
     import: optional:configserver:http://localhost:9010
+    #import: optional:configserver:http://config-server:9010
   cloud:
     config:
       fail-fast: true
